@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: #fdf9f9;
+}
+.container {
+	padding: 30px 50px;
+}
+
+.list-none {
+	list-style: none;
+}
+
+.list-nav {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.list-nav a {
+	font-size: 18px;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+}
+
+.list-nav a:hover {
+	color: #b0b0b0;
+	transform: scale(1.1);
+}
+
+.list-nav a:visited {
+	color: black;
+}
+
+.card {
+	min-width: 200px;
+	max-width: 700px;
+	margin: 30px 50px;
+	padding: 50px;
+	display: grid;
+	justify-content: left;
+	align-content: center;
+	border: 1px solid #b0b0b0;
+	box-sizing: border-box;
+	border-radius: 30px;
+	transition: 0.5s ease-in-out;
+}
+
+.about {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.list-about {
+	display: grid;
+	justify-content: left;
+	align-content: center;
+}
+
+.mb {
+	margin-bottom: 10px;
+}
+
+.mb-2 {
+	margin-bottom: 3px;
+}
+
+.text-gray {
+	color: #b0b0b0;
+}
+
+.text-gray-2 {
+	color: #575555;
+}
